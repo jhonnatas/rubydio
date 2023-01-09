@@ -11,17 +11,17 @@ class Pessoa
 	end	
 end
 
-jhonnatas  = Pessoa.new("Jhonnatas")
-jhonnatas.nome= "José Jhonnatas"
+pessoa1  = Pessoa.new("Snake")
+pessoa1.nome= "SolidSnake"
 
-geane = Pessoa.new("Geane")
-geane.nome="Geane"
+pessoa2= Pessoa.new("Alucard")
+pessoa2.nome="King Alucard"
 
-p jhonnatas 
-p geane
+p pessoa1
+p pessoa2
 
-jhonnatas.imprimir
-geane.imprimir
+pessoa1.imprimir
+pessoa2.imprimir
 
 
 
